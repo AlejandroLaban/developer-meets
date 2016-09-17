@@ -1,0 +1,14 @@
+.aside{
+	float: right;
+	width: 370px;
+	min-height: 480px;
+	margin: 0 0 20px 0;
+}
+
+.aside.footer{
+	@extend .aside;
+	@extend .footerStyle;
+	ul{
+		    list-style-type: none;
+	}
+}

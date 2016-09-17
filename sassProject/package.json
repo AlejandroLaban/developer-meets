@@ -1,0 +1,24 @@
+{
+  "name": "web_footer",
+  "version": "1.0.0",
+  "description": "web footer sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "gulp"
+  ],
+  "author": "Alejandro Laban",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.3"
+  }
+}

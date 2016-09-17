@@ -1,0 +1,10 @@
+.article{
+	float: left;
+	padding-left: 20px;
+	margin: 0 0 20px 0px;
+}
+
+.article.footer{
+	@extend .article;
+	@extend .footerStyle;
+}

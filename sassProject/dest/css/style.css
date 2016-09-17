@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans|Roboto+Slab|Sigmar+One';
+/**Create Variables*/
+.btn, .btn-reverse {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  border-radius: 10px;
+  line-height: 1.5px;
+  background-color: #494196;
+  color: #F2053C;
+  border-color: #0B7A21;
+  padding: 10px;
+  height: 32px;
+  width: 120px; }
+
+.btn-reverse {
+  color: #494196;
+  background-color: #0B7A21; }
+
+.aside, .aside.footer {
+  float: right;
+  width: 370px;
+  min-height: 480px;
+  margin: 0 0 20px 0; }
+
+.footer.aside ul {
+  list-style-type: none; }
+
+.section, .section.footer {
+  float: left;
+  width: 428px;
+  padding-left: 20px;
+  margin: 0 0 20px 0px; }
+
+.article, .article.footer {
+  float: left;
+  padding-left: 20px;
+  margin: 0 0 20px 0px; }
+
+div {
+  background-color: #ad3d3d;
+  width: 100px;
+  height: 100px; }
+  div label {
+    font-family: "Sigmar One", cursive; }
+
+div.container1 {
+  background-color: #dfa4a4;
+  padding-top: 100px;
+  margin: 10px; }
+
+.header.dummy {
+  width: 500;
+  height: 100px;
+  background-position: top center;
+  background: url(../images/header.png) no-repeat; }
+
+.article.dummy {
+  width: 500px;
+  height: 900px;
+  background-position: button center;
+  background: url(../images/body.png) no-repeat; }
+
+.footerStyle, .footer.aside, .footer.section, .footer.article {
+  font-size: 13px;
+  font-family: "Open Sans", "Heveletica", sans-serif; }
