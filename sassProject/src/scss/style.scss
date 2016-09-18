@@ -4,6 +4,7 @@
 @import "aside";
 @import "section";
 @import "article";
+@import "navbar";
 //@import url("../li/glyphicons/font-awesome.min.css");
 
 
@@ -40,4 +41,9 @@ div.container1{
 .footerStyle{
 	font-size:$footerFontSize;
 	font-family: $footerFamily;
+}
+
+footer{
+	bottom:0;
+	position:absolute;
 }

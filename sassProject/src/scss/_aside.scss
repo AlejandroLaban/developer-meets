@@ -1,8 +1,7 @@
 .aside{
 	float: right;
-	width: 370px;
-	min-height: 480px;
-	margin: 0 0 20px 0;
+	width: 350px;
+	margin: 5px;
 }
 
 .aside.footer{
@@ -10,5 +9,8 @@
 	@extend .footerStyle;
 	ul{
 		    list-style-type: none;
+	}
+	a{
+		text-decoration: none;
 	}
 }
